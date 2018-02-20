@@ -1,0 +1,31 @@
+{
+  "name": "@uncovertruth/eslint-config-flowtype",
+  "description": "eslint-config-standard based",
+  "version": "1.5.0",
+  "author": "UNCOVER TRUTH Inc.",
+  "bugs": {
+    "url": "https://github.com/uncovertruth/styleguide/pulls"
+  },
+  "dependencies": {
+    "@uncovertruth/eslint-config": "^3.3.0",
+    "babel-eslint": "^8.2.1",
+    "eslint-plugin-flowtype": "^2.42.0"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.64.0"
+  },
+  "homepage": "https://github.com/uncovertruth/styleguide/blob/master/packages/eslint-config-flowtype/README.md",
+  "keywords": [
+    "eslint",
+    "flowtype"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/uncovertruth/styleguide.git"
+  },
+  "scripts": {
+    "test": "flow && eslint . --cache"
+  }
+}
