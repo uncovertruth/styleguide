@@ -1,5 +1,7 @@
 # uncovertruth styleguide
 
+[![Build Status](https://travis-ci.org/uncovertruth/styleguide.svg?branch=master)](https://travis-ci.org/uncovertruth/styleguide)
+
 ## Table of Contents
 
 * [Packages](#packages)
@@ -13,9 +15,9 @@
 
 This repository is managed as monorepo.
 
-| Package | Version |
-| :------ | :------ |
-
+| Package                                                    | Version                                                                                                                                  |
+| :--------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------- |
+| **[@uncovertruth/eslint-config](/packages/eslint-config)** | [![npm version](https://badge.fury.io/js/%40uncovertruth%2Feslint-config.svg)](https://badge.fury.io/js/%40uncovertruth%2Feslint-config) |
 
 ## Install
 

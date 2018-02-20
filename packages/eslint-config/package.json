@@ -1,0 +1,32 @@
+{
+  "name": "@uncovertruth/eslint-config",
+  "description": "Configrations for eslint",
+  "version": "3.4.0",
+  "author": "UNCOVER TRUTH Inc.",
+  "bugs": {
+    "url": "https://github.com/uncovertruth/eslint-config/pulls"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-eslint-comments": "^2.0.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "homepage": "https://github.com/uncovertruth/eslint-config#readme",
+  "keywords": [
+    "config",
+    "eslint"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/uncovertruth/eslint-config.git"
+  },
+  "scripts": {
+    "lint": "eslint . --cache",
+    "test": "npm run lint"
+  }
+}
