@@ -28,7 +28,6 @@
   "scripts": {
     "lint:failed": "textlint -c index.js example",
     "lint:success": "textlint -c index.js README.md",
-    "precommit": "lint-staged",
     "test": "npm run lint:success"
   }
 }

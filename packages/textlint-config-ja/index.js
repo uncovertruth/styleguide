@@ -31,6 +31,7 @@ module.exports = {
     },
     'no-dead-link': {
       checkRelative: false,
+      ignore: ['https://badge.fury.io/js/**/*'],
       baseURI: null
     },
     'sentence-length': {
