@@ -1,3 +1,4 @@
+.textlintcache
 packages/**/yarn.lock
 packages/**/package-lock.json
 
@@ -64,5 +65,3 @@ typings/
 
 # next.js build output
 .next
-
-

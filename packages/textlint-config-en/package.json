@@ -1,0 +1,33 @@
+{
+  "name": "@uncovertruth/textlint-config-en",
+  "description": "Configrations for English text linter",
+  "version": "0.5.0",
+  "author": "UNCOVER TRUTH Inc",
+  "bugs": {
+    "url": "https://github.com/uncovertruth/styleguide/pulls"
+  },
+  "dependencies": {
+    "textlint-rule-common-misspellings": "^1.0.1",
+    "textlint-rule-incremental-headers": "^0.2.0",
+    "textlint-rule-max-comma": "^1.0.4",
+    "textlint-rule-no-dead-link": "^4.3.0",
+    "textlint-rule-rousseau": "^1.4.5",
+    "textlint-rule-write-good": "^1.6.2"
+  },
+  "homepage": "https://github.com/uncovertruth/styleguide/blob/master/packages/textlint-config-en/README.md",
+  "keywords": [
+    "config",
+    "textlint"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/uncovertruth/styleguide.git"
+  },
+  "scripts": {
+    "lint:failed": "textlint -c index.js example",
+    "lint:success": "textlint -c index.js README.md",
+    "test": "npm run lint:success"
+  }
+}
