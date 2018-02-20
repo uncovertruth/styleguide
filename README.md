@@ -22,6 +22,7 @@
 | **[@uncovertruth/textlint-config-en](/packages/textlint-config-en)**         | [![npm version](https://badge.fury.io/js/%40uncovertruth%2Ftextlint-config-en.svg)](https://badge.fury.io/js/%40uncovertruth%2Ftextlint-config-en)         |
 | **[@uncovertruth/textlint-config-ja](/packages/textlint-config-ja)**         | [![npm version](https://badge.fury.io/js/%40uncovertruth%2Ftextlint-config-ja.svg)](https://badge.fury.io/js/%40uncovertruth%2Ftextlint-config-ja)         |
 | **[pug-lint-config-uncovertruth](/packages/pug-lint-config-uncovertruth)**   | [![npm version](https://badge.fury.io/js/pug-lint-config-uncovertruth.svg)](https://badge.fury.io/js/pug-lint-config-uncovertruth)                         |
+| **[@uncovertruth/tslint-config](/packages/tslint-config)**                   | [![npm version](https://badge.fury.io/js/%40uncovertruth%2Ftslint-config.svg)](https://badge.fury.io/js/%40uncovertruth%2Ftslint-config)                   |
 
 ## Install
 
