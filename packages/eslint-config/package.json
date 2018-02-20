@@ -14,7 +14,7 @@
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1"
   },
-  "homepage": "https://github.com/uncovertruth/eslint-config#readme",
+  "homepage": "https://github.com/uncovertruth/styleguide/blob/master/packages/eslint-config/README.md",
   "keywords": [
     "config",
     "eslint"
@@ -23,7 +23,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/uncovertruth/eslint-config.git"
+    "url": "git+ssh://git@github.com/uncovertruth/styleguide.git"
   },
   "scripts": {
     "lint": "eslint . --cache",
