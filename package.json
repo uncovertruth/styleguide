@@ -18,7 +18,7 @@
     ],
     "*.md": [
       "prettier --write",
-      "textlint -c packages/texlint-config-en/index.js",
+      "textlint -c packages/textlint-config-en/index.js",
       "git add"
     ],
     "*.{css,scss,ts,tsx}": [
