@@ -1,0 +1,29 @@
+{
+  "name": "pug-lint-config-uncovertruth",
+  "description": "Configrations for pug linter",
+  "version": "0.0.2",
+  "author": "UNCOVER TRUTH Inc.",
+  "bugs": {
+    "url": "https://github.com/uncovertruth/styleguide/pulls"
+  },
+  "dependencies": {
+    "pug-lint-config-clock": "^2.0.0"
+  },
+  "devDependencies": {
+    "pug-lint": "^2.2.2"
+  },
+  "homepage": "https://github.com/uncovertruth/styleguide/blob/master/packages/pug-lint-config-uncovertruth/README.md",
+  "keywords": [
+    "config",
+    "pug-lint"
+  ],
+  "license": "MIT",
+  "main": ".pug-lintrc.json",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/uncovertruth/styleguide.git"
+  },
+  "scripts": {
+    "test": "pug-lint -c .pug-lintrc.json test/*.pug"
+  }
+}
