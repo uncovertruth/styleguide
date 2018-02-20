@@ -1,0 +1,23 @@
+.selector-x {
+  width: 10%;
+  height: 10rem;
+}
+
+@define-mixin icon $network, $color: blue {
+  .icon.is-$(network) {
+    color: $color;
+  }
+
+  .icon.is-$(network):hover {
+    color: white;
+    background: $color;
+  }
+}
+
+@mixin icon twitter {
+  background: url(twt.png);
+}
+
+@mixin icon youtube, red {
+  background: url(youtube.png);
+}
