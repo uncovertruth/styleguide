@@ -1,7 +1,7 @@
 # @uncovertruth/tslint-config
 
-[![npm version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
+[![npm version](https://badge.fury.io/js/%40uncovertruth%2Ftslint-config.svg)](https://badge.fury.io/js/%40uncovertruth%2Ftslint-config)
+[![Build Status](https://travis-ci.org/uncovertruth/styleguide.svg?branch=master)](https://travis-ci.org/uncovertruth/styleguide)
 
 ## Installation
 
@@ -18,8 +18,3 @@ npm test
 ## License
 
 MIT
-
-[npm-image]: https://badge.fury.io/js/%40uncovertruth%2Ftslint-config.svg
-[npm-url]: https://badge.fury.io/js/%40uncovertruth%2Ftslint-config
-[travis-image]: https://travis-ci.org/uncovertruth/tslint-config.svg?branch=master
-[travis-url]: https://travis-ci.org/uncovertruth/tslint-config
