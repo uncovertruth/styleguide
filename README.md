@@ -19,10 +19,11 @@
 | **[@uncovertruth/eslint-config-react](/packages/eslint-config-react)**       | [![npm version](https://badge.fury.io/js/%40uncovertruth%2Feslint-config-react.svg)](https://badge.fury.io/js/%40uncovertruth%2Feslint-config-react)       |
 | **[@uncovertruth/eslint-config](/packages/eslint-config)**                   | [![npm version](https://badge.fury.io/js/%40uncovertruth%2Feslint-config.svg)](https://badge.fury.io/js/%40uncovertruth%2Feslint-config)                   |
 | **[@uncovertruth/markdownlint-config](/packages/markdownlint-config)**       | [![npm version](https://badge.fury.io/js/%40uncovertruth%2Fmarkdownlint-config.svg)](https://badge.fury.io/js/%40uncovertruth%2Fmarkdownlint-config)       |
+| **[@uncovertruth/stylelint-config](/packages/stylelint-config)**             | [![npm version](https://badge.fury.io/js/%40uncovertruth%2Fstylelint-config.svg)](https://badge.fury.io/js/%40uncovertruth%2Fstylelint-config)             |
 | **[@uncovertruth/textlint-config-en](/packages/textlint-config-en)**         | [![npm version](https://badge.fury.io/js/%40uncovertruth%2Ftextlint-config-en.svg)](https://badge.fury.io/js/%40uncovertruth%2Ftextlint-config-en)         |
 | **[@uncovertruth/textlint-config-ja](/packages/textlint-config-ja)**         | [![npm version](https://badge.fury.io/js/%40uncovertruth%2Ftextlint-config-ja.svg)](https://badge.fury.io/js/%40uncovertruth%2Ftextlint-config-ja)         |
-| **[pug-lint-config-uncovertruth](/packages/pug-lint-config-uncovertruth)**   | [![npm version](https://badge.fury.io/js/pug-lint-config-uncovertruth.svg)](https://badge.fury.io/js/pug-lint-config-uncovertruth)                         |
 | **[@uncovertruth/tslint-config](/packages/tslint-config)**                   | [![npm version](https://badge.fury.io/js/%40uncovertruth%2Ftslint-config.svg)](https://badge.fury.io/js/%40uncovertruth%2Ftslint-config)                   |
+| **[pug-lint-config-uncovertruth](/packages/pug-lint-config-uncovertruth)**   | [![npm version](https://badge.fury.io/js/pug-lint-config-uncovertruth.svg)](https://badge.fury.io/js/pug-lint-config-uncovertruth)                         |
 
 ## Install
 
