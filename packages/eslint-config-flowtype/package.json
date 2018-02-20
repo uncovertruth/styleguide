@@ -4,7 +4,7 @@
   "version": "1.5.0",
   "author": "UNCOVER TRUTH Inc.",
   "bugs": {
-    "url": "https://github.com/uncovertruth/eslint-config-flowtype/pulls"
+    "url": "https://github.com/uncovertruth/styleguide/pulls"
   },
   "dependencies": {
     "@uncovertruth/eslint-config": "^3.3.0",
