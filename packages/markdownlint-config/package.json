@@ -1,0 +1,26 @@
+{
+  "name": "@uncovertruth/markdownlint-config",
+  "description": "Configrations for markdownlint",
+  "version": "0.1.0",
+  "author": "UNCOVER TRUTH Inc.",
+  "bugs": {
+    "url": "https://github.com/uncovertruth/styleguide/pulls"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.5.0"
+  },
+  "homepage": "https://github.com/uncovertruth/styleguide/blob/master/packages/markdownlint-config/README.md",
+  "keywords": [
+    "config",
+    "markdownlint"
+  ],
+  "license": "MIT",
+  "main": ".markdownlintrc",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/uncovertruth/styleguide.git"
+  },
+  "scripts": {
+    "test": "markdownlint -c .markdownlintrc *.md"
+  }
+}
