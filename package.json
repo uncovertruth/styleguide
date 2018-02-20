@@ -1,0 +1,40 @@
+{
+  "name": "@uncovertruth/styleguide",
+  "version": "1.0.0",
+  "author": "UNCOVER TRUTH Inc.",
+  "devDependencies": {
+    "fixpack": "^2.3.1",
+    "husky": "^0.14.3",
+    "lerna": "^2.9.0",
+    "lint-staged": "^6.1.1",
+    "prettier-eslint-cli": "^4.7.1"
+  },
+  "lint-staged": {
+    "package.json": [
+      "fixpack",
+      "git add"
+    ],
+    "*.md": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.{css,scss,ts,tsx}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.{js,jsx}": [
+      "prettier-eslint --write --eslint-config-path ./packages/eslint-config/index.js",
+      "git add"
+    ]
+  },
+  "main": "n/a",
+  "private": true,
+  "repository": "ssh://git@github.com/uncovertruth/styleguide.git",
+  "scripts": {
+    "precommit": "lint-staged",
+    "test": "lerna run test"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
