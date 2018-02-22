@@ -20,9 +20,6 @@
   ],
   "license": "MIT",
   "main": "tslint.json",
-  "peerDependencies": {
-    "tslint": "5.x"
-  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/uncovertruth/styleguide.git"
