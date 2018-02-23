@@ -5,7 +5,8 @@ node_js:
 - '6'
 cache: yarn
 before_deploy:
-- echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
+- echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > "${HOME}/.npmrc"
+- npm whoami
 deploy:
 - provider: script
   script: npm run release
