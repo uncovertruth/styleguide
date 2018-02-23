@@ -3,7 +3,20 @@ node_js:
 - stable
 - '8'
 - '6'
+before_deploy:
+- npm run build
+- echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
+deploy:
+  matrix:
+  - provider: script
+    script: npm run release
+    skip_cleanup: true
+    on:
+      tags: true
 notifications:
   email: false
   slack:
     secure: nUm6i17A9sE+SpFmqd4WQZ9NcOu5gr/JXbZjFEiEkaYWyhluybIqeWihB3CUEkwZWSfwKjtlZerwqLnmNYxTOkLh+qyC4heNGmt+TZCm+RRd8asO4j2ZDEpELPcM5BoNqNv5rTOXTce0rtEc0M6hmp3vme350DZ2eJN6x96KcmQibpJL4fGyR/Uwb0tqj2BmYpRFaG6smzzCoTJsJo3nYoZla42SQuBjs0MBhmTRAzcpMG1AQs5pWF3OuEo99nODfQzdLAPqdtwvRukg99fnY87AHNBevrhw1U5sbNqEkVrIqt9MX1Mop6lZsJZjBIFAixwPUnPaSWDyo4HOI/fZB3dCrn6abEnemp23dS23BS7wzu4VuDG2O8kDQ2pnhQMyPhgjHzEbRdDzaIrjwc0JvZb74mvuRHjBfSmt+ClQEDX4fWsX2oXNVMTUd40xOcDlXh2F8Jw1EtUa7/xfnuhUy16Msvszt/fH0hAUA0iKw8Nxwd6Hg+rePu6zB0lJbNNQImu96gmh7scnVvKxjc4vg1vMEgTnWcxC8LssIgrYhHVvHeawv1y0tPJQDX3Bononm91y1olfJgXaJs84znwXIrfhFY+gaM13I+n5xZOomrcg4FN5fWKGa2JdAdwFLP4uhze4bWVQM/ViTCS13+oIljKMDA/ETd4kJIPQ2LXRymk=
+env:
+  global:
+    secure: gv7Q8uKR+6eraSKdrJFiFel5sYcfH8X7+8orleUHjcUdUyOeYmLb50a+0vqWyfpdURn4GzNOy3rNhdRX5kaV5SKMDmatOK10wSRhqz0CMznVbprTpAHlvkC9yJZtcTUdL3U62rDv0cLL/29nnGW/1UAC/3flKlTYYSeQKh3EPTD+J6ZP9h5I8OOZlt23dqRbPrjfN5wbI+4RRlVT8N9Io87/FxCyUVkLOxF4a3UpeY1Mk7X9j467MaxG3Jepkg/JuR8V9irEc4ofGeHVaYNQORo90TR8vpXKFfUkZHuLeiLgTWuQQF2KuNIJny3Mh5qiE5R1nk/TDVakeJeNYcE/UZ3Dh47ywYlliG5PCGx6DHhwnItsYd+KLfL08ZebGEYMvP3UX4JMi/72Ug2sWqnC74xwjlDz264DH9CoQb8tgvA2IfhlJ2XPqk4mvtfklYTNw7dbjdzY01gHVsdSvgS5KKYJSwXGwP7myuUq0hiebqghDTXmZnuffqZQwgoq3kBLvnVn+J2htNzdLnbQb4Gf5Sic+9B0g9+iNEfrEZ/7LaUWQXRLH1fnf2ub3Ih3oQ6kewPjC7YI9ABizoI1UDhDtfkffYjJhD+xQClEQ3OB2fXt677v3xCVbHKf13u03wcdS8XSQH3ICKyzFta05wvBnEjIQdUFaGcSXMGE1CN2PEo=
