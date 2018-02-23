@@ -3,6 +3,7 @@ node_js:
 - stable
 - '8'
 - '6'
+cache: yarn
 before_deploy:
 - npm run build
 - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
@@ -12,6 +13,7 @@ deploy:
     script: npm run release
     skip_cleanup: true
     on:
+      repo: uncovertruth/styleguide
       tags: true
 notifications:
   email: false
