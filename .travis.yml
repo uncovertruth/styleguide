@@ -5,7 +5,6 @@ node_js:
 - '6'
 cache: yarn
 before_deploy:
-- npm run build
 - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
 deploy:
   matrix:
