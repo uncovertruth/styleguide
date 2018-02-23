@@ -3,6 +3,17 @@ node_js:
 - stable
 - '8'
 - '6'
+before_deploy:
+- npm run build
+deploy:
+  matrix:
+  - provider: script
+    script: npm run release
+    skip_cleanup: true
+    on:
+      tags: true
+  api_key:
+    secure: WlExRC/C30b38Nkt3pGev9iDM8xdcUDEl6J7NVZRZwRZ0GCtDjgcYuDG/YYF1CeaaKa41UTkfHPnBSabKpvi7JNxcnhQHOQynWp2u/uFDRFeHIlQr2qz6Xqs/W0za5B0DVmXOIP/hXmkqi5iD+QB33oo8r46ykxvYBMeA2xWRMeCwHdn+lZu6Xi2IUASG3dOL5yCukLKIJauqSmQWBUWpMQ+AAd9RSxI0nABvPnFklXrzFk2JmD38YFR6jdSvyW4db6eEsFMvHHZomdKa58tu2tCbd/uwJxiFln/eTRUSqDVQ6co7LDdgvh3ucKNF8Drw+yq/WUvplIOkdQPBSn/XkR1iLfJVY0u2J9us9jVg+FkJv/yPEia5u6JwFidEgkJo91miSumO8XJwYNAGMSVHLSwtfbWONYGs1r4KofslF+1Sz38FWLr6wxY/qNqjS5MS/WfLNP/G3vOjwcMmAno8CRThM9Gc3SJUxyKaAMbOX02oyVV7ECHxQRtnW82qccsm2vZZdYxDwbcaw5mqW0QifhaXacBEmvPHpKQKQ3p5GxBhR51B2QHAFObViXsllp40fzQ5dx1dd7EWmhp8CBeeKXF+8xTKTjnvugJP5FggoZJmI9VwFZ1qfvfNYnpgrranzyMc1dAfqu4K3CYZ4bSAM2S9a0F9DO45v671y1ZPvY=
 notifications:
   email: false
   slack:
