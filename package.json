@@ -36,7 +36,8 @@
   "scripts": {
     "precommit": "lint-staged",
     "release": "lerna exec --bail=false -- can-npm-publish && npm publish",
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "version": "lerna publish --skip-npm --skip-git"
   },
   "workspaces": [
     "packages/*"
