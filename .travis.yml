@@ -7,13 +7,12 @@ cache: yarn
 before_deploy:
 - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
 deploy:
-  matrix:
-  - provider: script
-    script: npm run release
-    skip_cleanup: true
-    on:
-      repo: uncovertruth/styleguide
-      tags: true
+- provider: script
+  script: npm run release
+  skip_cleanup: true
+  on:
+    repo: uncovertruth/styleguide
+    tags: true
 notifications:
   email: false
   slack:
