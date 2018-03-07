@@ -1,4 +1,5 @@
 .textlintcache
+.changelog/
 packages/**/yarn.lock
 packages/**/package-lock.json
 
