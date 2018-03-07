@@ -1,9 +1,22 @@
 # Hello
 
-* world
-  * example
-  * example
-  * example
+* example
+
+    hello
+
+* example
+    ```markdown
+    * hello
+    * hello
+    ```
+* example
+    * nested
+
+## Number list
+
+1. foo
+1. bar
+1. buzz
 
 ## Example2
 

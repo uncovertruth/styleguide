@@ -21,6 +21,6 @@
     "url": "git+ssh://git@github.com/uncovertruth/styleguide.git"
   },
   "scripts": {
-    "test": "markdownlint -c .markdownlintrc *.md"
+    "test": "markdownlint --config .markdownlintrc *.md"
   }
 }
