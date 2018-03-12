@@ -10,7 +10,7 @@
     "stylelint-config-standard": "^18.2.0"
   },
   "devDependencies": {
-    "stylelint": "^9.1.1"
+    "stylelint": "9.1.1"
   },
   "homepage": "https://github.com/uncovertruth/styleguide/blob/master/packages/stylelint-config/README.md",
   "keywords": [
