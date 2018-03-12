@@ -10,7 +10,7 @@
     "pug-lint-config-clock": "^2.0.0"
   },
   "devDependencies": {
-    "pug-lint": "^2.2.2"
+    "pug-lint": "2.5.0"
   },
   "homepage": "https://github.com/uncovertruth/styleguide/blob/master/packages/pug-lint-config-uncovertruth/README.md",
   "keywords": [
