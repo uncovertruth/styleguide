@@ -11,7 +11,7 @@
     "lerna-changelog": "0.7.0",
     "lint-staged": "7.0.2",
     "prettier-eslint-cli": "4.7.1",
-    "textlint": "10.1.5"
+    "textlint": "10.2.0"
   },
   "lint-staged": {
     "package.json": [
