@@ -1,6 +1,10 @@
 {
-  "extends": "tslint-config-standard",
+  "extends": [
+    "tslint:latest",
+    "tslint-config-standard"
+  ],
   "rules": {
-    "ordered-imports": true
+    "ordered-imports": true,
+    "no-implicit-dependencies": false
   }
 }

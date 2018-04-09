@@ -1,3 +1,4 @@
+.envrc
 .textlintcache
 .changelog/
 packages/**/yarn.lock
