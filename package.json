@@ -19,7 +19,7 @@
       "git add"
     ],
     "*.md": [
-      "prettier --tab-width 4 --write",
+      "prettier --write",
       "textlint -c packages/textlint-config-en/index.js",
       "git add"
     ],
@@ -29,7 +29,7 @@
     ],
     "*.{ts,tsx}": [
       "prettier --write",
-      "tslint --fix",
+      "tslint --fix -c packages/tslint-config/tslint.json",
       "git add"
     ],
     "*.{js,jsx}": [
