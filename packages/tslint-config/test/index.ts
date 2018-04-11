@@ -1,3 +1,10 @@
-import * as lint from 'tslint'
-import * as config from 'tslint-config-standard'
-import * as package from '../package.json'
+import { EventEmitter } from 'events'
+import * as fs from 'fs'
+
+type Props = {
+  text: string;
+}
+
+interface State {
+  flag: boolean
+}

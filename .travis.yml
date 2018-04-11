@@ -1,8 +1,7 @@
 language: node_js
 node_js:
 - stable
-- '8'
-- '6'
+- 'lts/*'
 cache: yarn
 before_deploy:
 - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > "${HOME}/.npmrc"
