@@ -1,7 +1,6 @@
 class Example {
-  // "member-access": false
-  index: number
-  options: { [name: string]: any }
+  private index: number
+  private options: { [name: string]: any }
 
   constructor (options?: { [name: string]: any }) {
     // "no-string-literal": false
@@ -30,7 +29,7 @@ function getNext (iterable: { [key: string]: any }, currentKey: string) {
 
 // "max-classes-per-file": [true, 2]
 class MoreClass {
-  f: () => void
+  public f: () => void
   constructor (callback?: () => void) {
     const f = callback
       ? callback
