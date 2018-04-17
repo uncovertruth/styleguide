@@ -28,7 +28,7 @@ function getNext (iterable: { [key: string]: any }, currentKey: string) {
   return ''
 }
 
-// "max-classes-per-file": [true, 5]
+// "max-classes-per-file": [true, 2]
 class MoreClass {
   f: () => void
   constructor (callback?: () => void) {
