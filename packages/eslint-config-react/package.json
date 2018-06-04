@@ -1,7 +1,7 @@
 {
   "name": "@uncovertruth/eslint-config-react",
   "description": "Configurations for eslint-config-react",
-  "version": "4.3.1",
+  "version": "4.3.2",
   "author": "UNCOVER TRUTH Inc.",
   "bugs": {
     "url": "https://github.com/uncovertruth/styleguide/pulls"
