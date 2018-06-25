@@ -1,7 +1,7 @@
 {
   "name": "@uncovertruth/stylelint-config",
   "description": "stylelint-config-standard based",
-  "version": "4.3.2",
+  "version": "4.4.0",
   "author": "UNCOVER TRUTH Inc.",
   "bugs": {
     "url": "https://github.com/uncovertruth/styleguide/pulls"
