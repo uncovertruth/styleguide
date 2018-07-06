@@ -10,7 +10,7 @@
     "tslint-config-standard": "^7.0.0"
   },
   "devDependencies": {
-    "@types/node": "9.6.22",
+    "@types/node": "9.6.23",
     "tslint": "5.10.0",
     "typescript": "2.9.2"
   },
