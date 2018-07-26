@@ -6,7 +6,7 @@ cache: yarn
 env:
   global:
   - secure: Fx0kz8EGbW5sMZZ+u6UP3bt3MsRtXfDggbON1X0+gL/O2W01QMn/CqJyvQI6hBPchPzdGsueoxlQ4XKU+vR5suEStqNbJVdtgteLHSyY74wN4iMlZJK8h15oBl4LCwzRuGPoAIoVYC5UUBVO3jNx1c4axF5dKm4Uav/0FP0nvp1WkYGT1tLMoUiIsBh3wCV7zsKqsidOmbLYvYpPX/0iT28FkRFXwoYY3DjCgXIVHrqT0Y0QPZpKcgcd96BRqM+RHM0pVcaoXP5GFpj+9XaInAqsZZ2eIFZYrUjN7DJnmdSRR1eS6quS7qGDSa67QuyM0YWj2/0kekUwYNuuI3wvosvq8wWTG0dWRjyjJaTE3A1GpnKuTLer7IjdOZEUDe8uMsS1QaZzxfwtYQ/5n2WO4X6A3BLNLOsXM8Fsu/6GEAg/sK+VejkK8XAQ4oD8xTERjp6Mhm1Wi2Jfc5Ju4LQj1fv0wjMGNwbxcctphZarKZAAoMMDJ6fLEc8XBljxLyTjSIFTrC6V1335Nb8Y2veuZTTKWMrtyHr5y8RksCcY4qRzHFvDQQl7L3JxKEv5Se2cl+Rm0oQH3nOkgSK9Q8MRl+bJDAtO55wZ37nW0DzO+qybmKuGzs8jPsDyaIe13tZP+2d1WCwxrlp0SElLjx915i/8IHxBEy/lw/OwjagX7HI=
-before_deploy:
+before_install:
 - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > "${HOME}/.npmrc"
 - npm whoami
 deploy:
