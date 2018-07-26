@@ -26,6 +26,6 @@
     "url": "git+ssh://git@github.com/uncovertruth/styleguide.git"
   },
   "scripts": {
-    "test": "tslint -c tslint.json test/*.ts{,x}"
+    "test": "tslint -c tslint.json test/*.ts{,x} && tsc test/* --lib es5,es6"
   }
 }
