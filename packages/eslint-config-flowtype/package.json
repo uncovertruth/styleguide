@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@uncovertruth/eslint-config": "^4.5.0",
-    "babel-eslint": "^8.2.2",
+    "babel-eslint": "^9.0.0",
     "eslint-plugin-flowtype": "^2.46.1"
   },
   "devDependencies": {
