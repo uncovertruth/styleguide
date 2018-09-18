@@ -43,7 +43,7 @@
   "scripts": {
     "bump": "lerna publish --skip-npm --skip-git && lerna-changelog",
     "precommit": "lint-staged",
-    "release": "lerna exec --bail=false -- 'can-npm-publish && npm publish'",
+    "release": "lerna exec --bail=false -- 'can-npm-publish && npm publish && echo done ; echo skip'",
     "test": "lerna run test --parallel"
   },
   "workspaces": [
