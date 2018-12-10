@@ -12,7 +12,7 @@
     "eslint-plugin-flowtype": "^2.46.1"
   },
   "devDependencies": {
-    "flow-bin": "0.87.0"
+    "flow-bin": "0.88.0"
   },
   "homepage": "https://github.com/uncovertruth/styleguide/blob/master/packages/eslint-config-flowtype/README.md",
   "keywords": [
