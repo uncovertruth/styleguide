@@ -5708,14 +5708,14 @@ rc@~1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react@16.8.0:
-  version "16.8.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.8.0.tgz#8533f0e4af818f448a276eae71681d09e8dd970a"
+react@16.8.1:
+  version "16.8.1"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.8.1.tgz#ae11831f6cb2a05d58603a976afc8a558e852c4a"
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.13.0"
+    scheduler "^0.13.1"
 
 read-cmd-shim@^1.0.1:
   version "1.0.1"
@@ -6157,9 +6157,9 @@ safe-regex@^1.1.0:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
 
-scheduler@^0.13.0:
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.13.0.tgz#e701f62e1b3e78d2bbb264046d4e7260f12184dd"
+scheduler@^0.13.1:
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.13.1.tgz#1a217df1bfaabaf4f1b92a9127d5d732d85a9591"
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
