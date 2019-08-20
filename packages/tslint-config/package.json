@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@types/node": "9.6.51",
-    "tslint": "5.18.0",
+    "tslint": "5.19.0",
     "typescript": "3.5.3"
   },
   "homepage": "https://github.com/uncovertruth/styleguide/blob/master/packages/tslint-config/README.md",
