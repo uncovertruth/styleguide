@@ -1712,25 +1712,6 @@ byte-size@^5.0.1:
   resolved "https://registry.yarnpkg.com/byte-size/-/byte-size-5.0.1.tgz#4b651039a5ecd96767e71a3d7ed380e48bed4191"
   integrity sha512-/XuKeqWocKsYa/cBY1YbSJSWWqTi4cFgr9S6OyM7PBaPbr9zvNGwWP33vt0uqGhwDdN+y3yhbXVILEUpnwEWGw==
 
-cacache@^11.0.1:
-  version "11.0.2"
-  resolved "https://registry.yarnpkg.com/cacache/-/cacache-11.0.2.tgz#ff30541a05302200108a759e660e30786f788764"
-  dependencies:
-    bluebird "^3.5.1"
-    chownr "^1.0.1"
-    figgy-pudding "^3.1.0"
-    glob "^7.1.2"
-    graceful-fs "^4.1.11"
-    lru-cache "^4.1.2"
-    mississippi "^3.0.0"
-    mkdirp "^0.5.1"
-    move-concurrently "^1.0.1"
-    promise-inflight "^1.0.1"
-    rimraf "^2.6.2"
-    ssri "^6.0.0"
-    unique-filename "^1.1.0"
-    y18n "^4.0.0"
-
 cacache@^12.0.0:
   version "12.0.0"
   resolved "https://registry.yarnpkg.com/cacache/-/cacache-12.0.0.tgz#1ed91cc306312a53ad688b1563ce4c416faec564"
@@ -1916,10 +1897,6 @@ chardet@^0.7.0:
 charenc@~0.0.1:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/charenc/-/charenc-0.0.2.tgz#c0a1d2f3a7092e03774bfa83f14c0fc5790a8667"
-
-chownr@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.0.1.tgz#e2a75042a9551908bebd25b8523d5f9769d79181"
 
 chownr@^1.1.1:
   version "1.1.1"
@@ -3139,10 +3116,6 @@ fault@^1.0.1:
   resolved "https://registry.yarnpkg.com/fault/-/fault-1.0.2.tgz#c3d0fec202f172a3a4d414042ad2bb5e2a3ffbaa"
   dependencies:
     format "^0.2.2"
-
-figgy-pudding@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/figgy-pudding/-/figgy-pudding-3.1.0.tgz#a77ed2284175976c424b390b298569e9df86dd1e"
 
 figgy-pudding@^3.4.1, figgy-pudding@^3.5.1:
   version "3.5.1"
@@ -4470,18 +4443,18 @@ lcid@^1.0.0:
   dependencies:
     invert-kv "^1.0.0"
 
-lerna-changelog@0.8.2:
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/lerna-changelog/-/lerna-changelog-0.8.2.tgz#05dc24add91741a4c198a79f82a1a4ac3fbb4754"
+lerna-changelog@0.8.3:
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/lerna-changelog/-/lerna-changelog-0.8.3.tgz#6aa494d7b486c27e8d5b5814a2b588f6e4b24aef"
+  integrity sha512-0xRxR/J10cBdek2RjG+4eOpYr5UgxcHQr6BEXzPxQu4U7AD5k6ETU1S5QDyHel/lfSmTlwEEwWOqE4LBekFvAA==
   dependencies:
     chalk "^2.4.1"
     cli-highlight "^1.2.3"
-    execa "^0.10.0"
-    make-fetch-happen "^4.0.1"
+    execa "^1.0.0"
+    make-fetch-happen "^5.0.0"
     normalize-git-url "^3.0.2"
-    p-map "^1.2.0"
+    p-map "^2.1.0"
     progress "^2.0.0"
-    string.prototype.padend "^3.0.0"
     yargs "^11.0.0"
 
 lerna@3.18.4:
@@ -4809,7 +4782,7 @@ loud-rejection@^1.0.0:
     currently-unhandled "^0.4.1"
     signal-exit "^3.0.0"
 
-lru-cache@^4.0.1, lru-cache@^4.1.2:
+lru-cache@^4.0.1:
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-4.1.3.tgz#a1175cf3496dfc8436c156c334b4955992bce69c"
   dependencies:
@@ -4839,22 +4812,6 @@ make-dir@^2.1.0:
   dependencies:
     pify "^4.0.1"
     semver "^5.6.0"
-
-make-fetch-happen@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/make-fetch-happen/-/make-fetch-happen-4.0.1.tgz#141497cb878f243ba93136c83d8aba12c216c083"
-  dependencies:
-    agentkeepalive "^3.4.1"
-    cacache "^11.0.1"
-    http-cache-semantics "^3.8.1"
-    http-proxy-agent "^2.1.0"
-    https-proxy-agent "^2.2.1"
-    lru-cache "^4.1.2"
-    mississippi "^3.0.0"
-    node-fetch-npm "^2.0.2"
-    promise-retry "^1.1.1"
-    socks-proxy-agent "^4.0.0"
-    ssri "^6.0.0"
 
 make-fetch-happen@^5.0.0:
   version "5.0.0"
@@ -5619,7 +5576,7 @@ p-map-series@^1.0.0:
   dependencies:
     p-reduce "^1.0.0"
 
-p-map@^1.1.1, p-map@^1.2.0:
+p-map@^1.1.1:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/p-map/-/p-map-1.2.0.tgz#e4e94f311eabbc8633a1e79908165fca26241b6b"
 
@@ -7077,14 +7034,6 @@ string-width@^4.1.0:
     is-fullwidth-code-point "^3.0.0"
     strip-ansi "^5.2.0"
 
-string.prototype.padend@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/string.prototype.padend/-/string.prototype.padend-3.0.0.tgz#f3aaef7c1719f170c5eab1c32bf780d96e21f2f0"
-  dependencies:
-    define-properties "^1.1.2"
-    es-abstract "^1.4.3"
-    function-bind "^1.0.2"
-
 string.prototype.padstart@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/string.prototype.padstart/-/string.prototype.padstart-3.0.0.tgz#5bcfad39f4649bb2d031292e19bcf0b510d4b242"
@@ -7910,12 +7859,6 @@ uniq@^1.0.1:
 unique-concat@^0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/unique-concat/-/unique-concat-0.2.2.tgz#9210f9bdcaacc5e1e3929490d7c019df96f18712"
-
-unique-filename@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/unique-filename/-/unique-filename-1.1.0.tgz#d05f2fe4032560871f30e93cbe735eea201514f3"
-  dependencies:
-    unique-slug "^2.0.0"
 
 unique-filename@^1.1.1:
   version "1.1.1"
