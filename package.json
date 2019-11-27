@@ -9,7 +9,7 @@
     "husky": "3.1.0",
     "lerna": "3.19.0",
     "lerna-changelog": "0.8.3",
-    "lint-staged": "7.3.0",
+    "lint-staged": "9.5.0",
     "prettier-eslint-cli": "4.7.1",
     "textlint": "11.5.0"
   },
