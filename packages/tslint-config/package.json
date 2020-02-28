@@ -12,7 +12,7 @@
   "devDependencies": {
     "@types/node": "9.6.55",
     "tslint": "5.20.1",
-    "typescript": "3.8.2"
+    "typescript": "3.8.3"
   },
   "homepage": "https://github.com/uncovertruth/styleguide/blob/master/packages/tslint-config/README.md",
   "keywords": [
