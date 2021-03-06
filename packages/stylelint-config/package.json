@@ -7,7 +7,7 @@
     "url": "https://github.com/uncovertruth/styleguide/pulls"
   },
   "dependencies": {
-    "stylelint-config-standard": "^18.2.0"
+    "stylelint-config-standard": "^21.0.0"
   },
   "devDependencies": {
     "stylelint": "13.11.0"
