@@ -2991,9 +2991,10 @@ eslint-plugin-node@^9.0.0:
     resolve "^1.10.1"
     semver "^6.1.0"
 
-eslint-plugin-promise@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-4.0.0.tgz#bc15a4aa04fa6116113b6c47488c421821b758fc"
+eslint-plugin-promise@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-5.0.0.tgz#676d1d1555e34976b4a9bd42663f70353ddb8fef"
+  integrity sha512-6ZoHypc/CbcB3sicGMGro4YmQLbcmoHL5KhDAtE/Gw5p8TrME7fbAlyD6rH+XN/knndMHKpXdk4A4Bq+njzeSQ==
 
 eslint-plugin-react@^7.7.0:
   version "7.10.0"
