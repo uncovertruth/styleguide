@@ -9,7 +9,7 @@
   "dependencies": {
     "textlint-rule-common-misspellings": "^1.0.1",
     "textlint-rule-incremental-headers": "^0.2.0",
-    "textlint-rule-max-comma": "^1.0.4",
+    "textlint-rule-max-comma": "^2.0.0",
     "textlint-rule-no-dead-link": "^4.3.0",
     "textlint-rule-rousseau": "^1.4.5",
     "textlint-rule-write-good": "^1.6.2"
