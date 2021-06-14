@@ -1,0 +1,20 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - textlint-rule-ja-no-weak-phrase > kuromojin > kuromoji > async > lodash:
+        patched: '2019-07-03T22:15:58.130Z'
+    - textlint-rule-max-ten > kuromojin > kuromoji > async > lodash:
+        patched: '2019-07-03T22:15:58.130Z'
+    - textlint-rule-no-double-negative-ja > kuromojin > kuromoji > async > lodash:
+        patched: '2019-07-03T22:15:58.130Z'
+    - textlint-rule-no-doubled-conjunction > kuromojin > kuromoji > async > lodash:
+        patched: '2019-07-03T22:15:58.130Z'
+    - textlint-rule-no-doubled-conjunctive-particle-ga > kuromojin > kuromoji > async > lodash:
+        patched: '2019-07-03T22:15:58.130Z'
+    - textlint-rule-no-doubled-joshi > kuromojin > kuromoji > async > lodash:
+        patched: '2019-07-03T22:15:58.130Z'
+    - textlint-rule-no-mix-dearu-desumasu > analyze-desumasu-dearu > kuromojin > kuromoji > async > lodash:
+        patched: '2019-07-03T22:15:58.130Z'
