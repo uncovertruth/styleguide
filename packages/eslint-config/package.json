@@ -12,7 +12,8 @@
     "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-node": "^9.0.0",
     "eslint-plugin-promise": "^4.0.0",
-    "eslint-plugin-standard": "^4.0.0"
+    "eslint-plugin-standard": "^4.0.0",
+    "snyk": "^1.189.0"
   },
   "homepage": "https://github.com/uncovertruth/styleguide/blob/master/packages/eslint-config/README.md",
   "keywords": [
@@ -27,6 +28,9 @@
   },
   "scripts": {
     "lint": "eslint . --cache",
-    "test": "npm run lint"
-  }
+    "test": "npm run lint",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
